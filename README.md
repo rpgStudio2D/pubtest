@@ -24,5 +24,7 @@ test.php
 685806772
 
 #### 界面截图
+![q1](https://foruda.gitee.com/images/1725656837716311778/467989e5_14809862.jpeg)
 
+![q2](https://gitee.com/rpgstudio2d/javafx-fxgl-plants-vs-zombies/raw/master/javafx-fxgl-plants-vs-zombies/game1.jpg)
 
