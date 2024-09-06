@@ -1,30 +1,30 @@
 # pubtest
 
-#### 介绍
-pubtest是湖南省中职学校普测题库后台+手机站，使用thinkphp+h5+jquery+mysql技术栈，我担任编程教师的教学期间给学生们练习用的涵盖德育，语文，数学，英语，计算机应用等学科。
+####Introduction
+Pubtest is a backend and mobile platform for the general test question bank in vocational schools in Hunan Province. It uses the ThinkPHP+H5+jQuery+MySQL technology stack. During my teaching period as a programming teacher, I provided students with exercises covering subjects such as moral education, Chinese language, mathematics, English, and computer applications.
 
-#### 软件架构
+####Software Architecture
 php
 
 
-#### 安装教程
+####Installation tutorial
 
 phpstudy
 
-#### 使用说明
+####Instructions for use
 
 pc.php
 test.php
 
-#### 参与贡献
-段老师
+####Participate and contribute
+Teacher Duan
 
 
-#### 交流Q群
+####Exchange Q group
 685806772
 
-#### 界面截图
-![q1](https://foruda.gitee.com/images/1725656837716311778/467989e5_14809862.jpeg)
+#### ui
+![q1](https://gitee.com/rpgstudio2d/pubtest/raw/master/Public/q1.jpg)
 
 ![q2](https://gitee.com/rpgstudio2d/pubtest/raw/master/Public/q2.jpg)
 
