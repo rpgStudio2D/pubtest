@@ -1,0 +1,15 @@
+安装说明：
+
+1、上传到空间服务器，导入数据库文件edu002.sql，
+
+2、修改hmoe和admin目录下conf目录下的数据库配置文件
+
+3、删除缓存文件 Cache目录下的文件全部删除
+
+后台缓存：\Admin\Runtime\Cache 
+
+前台缓存：\Home\Runtime\Cache
+
+访问前台：域名/admin.php 访问后台  admin   密码 :admin
+
+

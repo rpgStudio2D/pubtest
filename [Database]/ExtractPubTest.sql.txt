@@ -1,0 +1,86 @@
+-- dbpubtest 中职普测数据库
+
+
+-- 科目考题表
+CREATE TABLE `testexam1` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subjectId` int(11) NOT NULL,
+  `typeId` int(11) NOT NULL,
+  `sn` int(11) NOT NULL,
+  `content` varchar(2000) NOT NULL,
+  `answer` varchar(8) NOT NULL,
+  `crc` int(11) NOT NULL,
+  `tm` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `subjectId` (`subjectId`,`typeId`,`sn`,`crc`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `testexam2` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subjectId` int(11) NOT NULL,
+  `typeId` int(11) NOT NULL,
+  `sn` int(11) NOT NULL,
+  `content` varchar(2000) NOT NULL,
+  `answer` varchar(8) NOT NULL,
+  `crc` int(11) NOT NULL,
+  `tm` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `subjectId` (`subjectId`,`typeId`,`sn`,`crc`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `testexam3` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subjectId` int(11) NOT NULL,
+  `typeId` int(11) NOT NULL,
+  `sn` int(11) NOT NULL,
+  `content` varchar(2000) NOT NULL,
+  `answer` varchar(8) NOT NULL,
+  `crc` int(11) NOT NULL,
+  `tm` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `subjectId` (`subjectId`,`typeId`,`sn`,`crc`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `testexam4` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subjectId` int(11) NOT NULL,
+  `typeId` int(11) NOT NULL,
+  `sn` int(11) NOT NULL,
+  `content` varchar(2000) NOT NULL,
+  `answer` varchar(50) NOT NULL,
+  `crc` int(11) NOT NULL,
+  `tm` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `subjectId` (`subjectId`,`typeId`,`sn`,`crc`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `testexam5` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subjectId` int(11) NOT NULL,
+  `typeId` int(11) NOT NULL,
+  `sn` int(11) NOT NULL,
+  `content` varchar(2000) NOT NULL,
+  `answer` varchar(8) NOT NULL,
+  `crc` int(11) NOT NULL,
+  `tm` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `subjectId` (`subjectId`,`typeId`,`sn`,`crc`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+-- 题型 1:Select , 2:Judge ,
+CREATE TABLE `ttype` (
+  `id` int(11) NOT NULL,
+  `name` varchar(8) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+-- 科目 1: 德育, 2: 语文, 3: 数学, 4: 英语, 5: 计应
+CREATE TABLE `tsubject` (
+  `id` int(11) NOT NULL,
+  `name` varchar(8) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
